@@ -25,6 +25,7 @@ def loop_message_n_times(message,number)
   def return_string_array(array)
     counter=0
     while counter<array.length do
-      array(counter).to_s
+      array(counter)=array(counter).to_s
     end
+    array
   end
