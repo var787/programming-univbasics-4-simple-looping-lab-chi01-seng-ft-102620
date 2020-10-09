@@ -21,3 +21,10 @@ def loop_message_n_times(message,number)
       counter+=1
     end
   end
+
+  def return_string_array(array)
+    counter=0
+    while counter<array.length do
+      return array
+    end
+  end
