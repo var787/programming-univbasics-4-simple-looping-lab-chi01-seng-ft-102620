@@ -29,5 +29,5 @@ def loop_message_n_times(message,number)
       new_array.push(array[counter].to_s)
       counter+=1
     end
-    array
+    new_array
   end
